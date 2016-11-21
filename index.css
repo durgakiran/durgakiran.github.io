@@ -1,5 +1,12 @@
-#home{
+/*responsive for large screens https://css-tricks.com/optimizing-large-scale-displays/ */
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+#home, #about, #Projects, #contact{
 	text-align: center;
+	margin-top: 100px;
 }
 img{
 	width: 200px;
@@ -32,8 +39,35 @@ hr{
 }
 h2{
 	color: #63FF33;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.68);
 }
-#about, #Projects{
-	margin-top: 100px;
-	text-align: center;
+form{
+	padding: 30px;
+}
+label{
+	padding: 10px;
+}
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: 300px;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+em{
+	color: white;
+}
+.page {
+  color: #f2f3f7;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  cursor: pointer;
 }
