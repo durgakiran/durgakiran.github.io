@@ -33,3 +33,6 @@ hr{
 h2{
 	color: #63FF33;
 }
+#about, #Projects{
+	margin-top: 100px;
+}
