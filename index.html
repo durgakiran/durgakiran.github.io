@@ -3,18 +3,37 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Palakurthi Durga Kiran Kumar</title>
+        <title>Palakurthi Durga kiran kumar</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="jqueryflip.js"></script>
         <script src="index.js"></script>
+        
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
     	<div class="container-fluid">
+    		<nav class="navbar navbar-dark navbar-fixed-top" style="background-color: #1a6b21">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar" style = 'background-color: white'></span>
+                    <span class="icon-bar" style = 'background-color: white'></span>
+                    <span class="icon-bar" style = 'background-color: white'></span> 
+                </button> 
+                <div class="collapse navbar-collapse" id="myNavbar">
+                	<ul class = 'nav navbar-nav navbar-right' style = ' padding: 10px;'>
+                		<li><a href='#home' class = 'page'>Home</a></li>
+    			        <li><a href='#about' class = 'page'>About</a></li>
+    			        <li><a href='#Projects' class = 'page'>Projects</a></li>
+    			        <li><a href='#contact' class = 'page'>Contact</a></li>
+    			    </ul>
+                </div>
+    		</nav>
     	<div id="home">
     		<div class="row">
     			<div class="col-sm-6">
-    				<img src="http://res.cloudinary.com/dkitegdjo/image/upload/v1479698201/edited_photo_lnupma.jpg" alt="kiran kumar">
+    				<img src="http://res.cloudinary.com/dkitegdjo/image/upload/v1479698201/edited_photo_lnupma.jpg" alt="kiran kumar" title="kiran kumar">
     			</div>
     			<div class="col-sm-4 scontent">
     				<h1>HELLO WORLD!</h1>
@@ -27,11 +46,11 @@
     			<div class="col-sm-4"></div>
     		</div>
     		<div class="licons">
-    			<img src="http://getbootstrap.com/apple-touch-icon.png" alt="bootstrap" class="icon">
-    			<img src="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png" alt="html5" class="icon">
-    			<img src="http://www.exuberantsolutions.com/course_logo/css3.png" alt="css3" class="icon">
-    			<img src="https://pbs.twimg.com/profile_images/788014136575668224/lxEKmMnB.jpg"          alt="jquery" class="icon">
-    			<img src="https://www.codementor.io/assets/page_img/learn-javascript.png" alt="javascript" class="icon">
+    			<img src="http://getbootstrap.com/apple-touch-icon.png" alt="bootstrap" class="icon" title="bootstrap">
+    			<img src="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png" alt="html5" class="icon" title="html5">
+    			<img src="http://www.exuberantsolutions.com/course_logo/css3.png" alt="css3" class="icon" title="css3">
+    			<img src="https://pbs.twimg.com/profile_images/788014136575668224/lxEKmMnB.jpg" alt="jquery" class="icon" title="jQuery">
+    			<img src="https://www.codementor.io/assets/page_img/learn-javascript.png" alt="javascript" class="icon" title="javascript">
     			
     		</div>
     	</div>
@@ -41,7 +60,7 @@
     		<div class="row">
     			<div class="col-sm-6">
     			<img src="http://png.clipart.me/previews/85b/psd-universal-blue-web-user-icon-45876.jpg">
-    			<p class="acontent">I am a certified front end developer by freecodecamp under full stack developer program. I am currently looking for careers as front end web developer.</p>
+    			<p class="acontent">I am a certified front end developer by freecodecamp under full stack developer program. I am currently looking for career as front end web developer in software Industry.</p>
     		    </div>
     		    <div class="col-sm-6">
     		    	<img src="https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/space-rocket-256.png" class="rocket">
@@ -52,8 +71,98 @@
     	<div id="Projects">
     		<h2>Projects</h2>
     		<hr>
+    		<div class="row">
+    			<div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(11).png?raw=true" alt="pomodoro clock">
+    				</div>
+    				<div class="back">
+    					<h3> Pomdoro Clock</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/dOPOEQ" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    			<div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(12).png?raw=true" alt="TicTacToe">
+    				</div>
+    				<div class="back">
+    					<h3> TicTacToe</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/jVqWxw" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    		    <div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(13).png?raw=true" alt="Simon game">
+    				</div>
+    				<div class="back">
+    					<h3> Simon Game</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/xRVBeL" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    		</div>
+    		<div class="row">
+    		    <div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(14).png?raw=true" alt="calculator">
+    				</div>
+    				<div class="back">
+    					<h3> Javascript calculator</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/PboQmv" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    		    <div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(15).png?raw=true" alt="weather app">
+    				</div>
+    				<div class="back">
+    					<h3> Weather App</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/QKwxyQ" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    		    <div class="col-md-4"><div class="flip">
+    				<div class="front">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/images/Screenshot%20(17).png?raw=true" alt="wikipedia viewer">
+    				</div>
+    				<div class="back">
+    					<h3> Wikipedia viewer</h3>
+    					<a href = "http://codepen.io/Durgakiran/pen/mAPJoJ" target="_blank">
+    					<img src="https://github.com/durgakiran/durgakiran.github.io/blob/master/Screenshots/Button-Fill-Black-Large.png?raw=true" style="width:100px; height:100px"><br>
+    					<em>View in Codepen</em></a>
+    				</div>
+    			</div></div>
+    		    
+    		</div>
     		
     	</div>
+    	<div id="contact">
+    		<h2>Contact</h2>
+    		<form action="mailto:kiranfet@example.com" method="post" enctype="text/plain">
+    			<label>Email: <br>
+    			<input type="email" placeholder=" your email" size="35"></label><br>
+    			<label>Sub: <br>
+    			<input type="text" placeholder="email subject" size="35"></label><br>
+    			<label>Message: <br><textarea name="Message"  rows="10" cols="30"></textarea></label><br>
+    			<input type="button" value="Send" class="btn btn-success">
+    		</form>
+    		<div>
+    			<p>or</p>
+    			<hr>
+    			<a href="https://www.facebook.com/?ref=tn_tnmn" role="button" class="btn btn-success" target="_blank">facebook</a>
+      <a href=https://www.reddit.com/user/durgakiran/ role="button" class="btn btn-success" target="_blank">reddit</a>
+    		</div>
+    		
+    	</div>
+        </div>
 
     </body>
 </html>
