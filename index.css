@@ -1,0 +1,35 @@
+#home, #about, #Projects{
+	text-align: center;
+}
+img{
+	width: 200px;
+	margin-top: 50px;
+}
+.scontent{
+	margin-top: 50px;
+	font-family: 'VT323', monospace;
+	font-size: 25px;
+	font-weight: bold;
+}
+h1{
+	font-family: 'VT323', monospace;
+	color: #63FF33;
+	font-weight: bold;
+}
+hr{
+	width: 50%;
+	color: #28CBE5;
+}
+.icon{
+	width: 30px;
+	margin: 40px 30px 0 10px;
+}
+.rocket{
+	width: 150px;
+}
+.acontent{
+	padding: 30px;
+}
+h2{
+	color: #63FF33;
+}
